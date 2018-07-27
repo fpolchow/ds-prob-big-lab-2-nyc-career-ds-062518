@@ -8,7 +8,7 @@ Belgium is planning on making it far in the soccer world cup. Currently waiting 
 - Brazil, with a 30% chance.
 - Colombia, with a 15% chance
 - Sweden, with 35% chance
-- Switzerland, with a 10% chance.
+- Switzerland, with a 20% chance.
 
 According to online betting company Ladbrokes, Belgiums chances of winning against these contries are given by the following probabilities:
 
@@ -26,7 +26,7 @@ Fast forward, and it turns out Belgium has won the quarter finals. What is the p
 ```python
 #
 prob_not_Brazil = None
-prob_not_Brazil # correct answer: 0.8193979933110368d
+prob_not_Brazil # correct answer: 0.8446788111217641
 ```
 
 ## Exercise 2: Probability that each person has one ace
