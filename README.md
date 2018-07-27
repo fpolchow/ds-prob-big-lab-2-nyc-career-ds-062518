@@ -8,7 +8,7 @@ Belgium is planning on making it far in the soccer world cup. Currently waiting 
 - Brazil, with a 30% chance.
 - Colombia, with a 15% chance
 - Sweden, with 35% chance
-- Switzerland, with a 10% chance.
+- Switzerland, with a 20% chance.
 
 According to online betting company Ladbrokes, Belgium's chances of winning against these contries are given by the following probabilities:
 
@@ -29,10 +29,10 @@ $P(\text{play against Brazil} \mid \text{win})= \dfrac{P(\text{win} \mid\text{pl
 
 
 ```python
-prob_Brazil_if_won = (0.3*0.27)/(0.3*0.27+ 0.15*0.68+0.35*0.55+0.1*0.73)
+prob_Brazil_if_won = (0.3*0.27)/(0.3*0.27+ 0.15*0.68+0.35*0.55+0.2*0.73)
 prob_not_Brazil=1-prob_Brazil_if_won
 
-prob_not_Brazil # correct answer: 0.8193979933110368
+prob_not_Brazil # correct answer: 0.8446788111217641
 ```
 
 ## Exercise 2: Probability that each person has one ace
